@@ -150,6 +150,22 @@ class Operations
             return "Error occurred while saving data: " . $conn->error;
         }
     }
+    public static function setCareer($title, $dec, $cate)
+    {
+        $conn = Database::getConnect();
+
+        // SQL Query: Use prepared statements to avoid SQL injection
+        $sql = "INSERT INTO `career` (`title`, `dec`, `category`, `created_at`) 
+                VALUES ('$title', '$dec', '$cate', NOW())";
+
+        // Prepare statement
+        if ($conn->query($sql)) {
+            header("Location: viewCareer.php");
+            exit;
+        } else {
+            return "Error occurred while saving data: " . $conn->error;
+        }
+    }
     public static function setTeamMembers($name, $role, $img)
     {
         $conn = Database::getConnect();
@@ -230,6 +246,14 @@ class Operations
         $result = $conn->query($sql);
         return $result ? $result->fetch_assoc() : null;
     }
+    public static function getCareer()
+    {
+        $getID = $_GET['edit_id'];
+        $conn = Database::getConnect();
+        $sql = "SELECT * FROM `career` WHERE `id` = '$getID'";
+        $result = $conn->query($sql);
+        return $result ? $result->fetch_assoc() : null;
+    }
 
     public static function getProImages()
     {
@@ -259,6 +283,20 @@ class Operations
         $result = $conn->query($sql);
         return iterator_to_array($result);
     }
+    public static function getCareers()
+    {
+        $conn = Database::getConnect();
+        $sql = "SELECT * FROM `career` ORDER BY `created_at` DESC";
+        $result = $conn->query($sql);
+        return iterator_to_array($result);
+    }
+    // public static function getCareerCate($cate)
+    // {
+    //     $conn = Database::getConnect();
+    //     $sql = "SELECT * FROM `career` WHERE `category` = '$cate'";
+    //     $result = $conn->query($sql);
+    //     return iterator_to_array($result);
+    // }
     public static function getTeamMembers()
     {
         $conn = Database::getConnect();

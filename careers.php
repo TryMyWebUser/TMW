@@ -57,13 +57,20 @@
 				</div>
 				<div class="row">
 					<!--Process One Single Start-->
+					<?php
+						$sql = "SELECT * FROM `career` WHERE `category` = 'trainings'";
+						$result = $conn->query($sql);
+						$training = iterator_to_array($result);
+						if (!empty($training)) {
+						foreach ($training as $training) {
+					?>
 					<div class="col-md-4">
 						<div class="card p-3 mb-2">
 							<div class="mt-3">
-								<h5 class="heading">Senior Product Designer-Singapore</h5>
+								<h5 class="heading"><?= $training['title'] ?></h5>
 								<div class="mt-1">
 									<div class="my-3">
-										<span class="text1">32 Applied</span><br>
+										<span class="text1"><?= $training['dec'] ?></span><br>
 									</div>
 									<a href="#form">
 										<button type="button" class="btn btn-outline-primary">Apply Now</button>
@@ -72,6 +79,7 @@
 							</div>
 						</div>
 					</div>
+					<?php } } else { echo "<p>Training Classes Not Found</p>"; } ?>
 					<!--Process One Single End-->
 				</div>
 			</div>
@@ -86,13 +94,20 @@
 				</div>
 				<div class="row">
 					<!--Process One Single Start-->
+					<?php
+						$sql = "SELECT * FROM `career` WHERE `category` = 'jobs'";
+						$result = $conn->query($sql);
+						$jobs = iterator_to_array($result);
+						if (!empty($jobs)) {
+						foreach ($jobs as $job) {
+					?>
 					<div class="col-md-4">
 						<div class="card p-3 mb-2">
 							<div class="mt-3">
-								<h5 class="heading">Senior Product Designer-Singapore</h5>
+								<h5 class="heading"><?= $job['title'] ?></h5>
 								<div class="mt-1">
 									<div class="my-3">
-										<span class="text1">32 Applied</span><br>
+										<span class="text1"><?= $job['dec'] ?></span><br>
 									</div>
 									<a href="#form">
 										<button type="button" class="btn btn-outline-primary">Apply Now</button>
@@ -101,6 +116,7 @@
 							</div>
 						</div>
 					</div>
+					<?php } } else { echo "<p>Jobs Opening Not Found</p>"; } ?>
 					<!--Process One Single End-->
 				</div>
 			</div>
