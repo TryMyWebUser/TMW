@@ -30,7 +30,7 @@
 
 		<!--Page Header Start-->
 		<section class="page-header">
-			<div class="page-header__bg" style="background-image: url(images/background/page-header-bg.jpg);"></div>
+			<div class="page-header__bg" style="background-image: url(dist_tmw/images/background/page-header-bg.jpg);"></div>
 			<div class="container">
 				<div class="page-header__inner">
 					<h2>services</h2>
@@ -48,7 +48,7 @@
 
 		<!--Services Two Start-->
 		<section class="services-two">
-			<div class="services-two__shape-1" style="background-image: url(images/shapes/services-two-shape-1.png);">
+			<div class="services-two__shape-1" style="background-image: url(dist_tmw/images/shapes/services-two-shape-1.png);">
 			</div>
 			<div class="container">
 				<div class="services-two__inner-box">
@@ -82,7 +82,7 @@
 											<p class="services-two__text">We turn your ideas into a reality. &our website is placed on a "development server" where you get to watch the whole process, live.</p>
 										</div>
 										<div class="services-two__img-box"
-											data-src="images/services/services-two-img-1.jpg"></div>
+											data-src="dist_tmw/images/services/services-two-img-1.jpg"></div>
 									</li>
 									<li class="cs-hover_tab-2 clearfix">
 										<div class="services-two__icon">
@@ -97,7 +97,7 @@
 											<p class="services-two__text">Color scheme, layout, sitemap, and style. We will bring your brand to life with a one of a kind masterpiece, built just for you</p>
 										</div>
 										<div class="services-two__img-box"
-											data-src="images/services/services-two-img-2.jpg"></div>
+											data-src="dist_tmw/images/services/services-two-img-2.jpg"></div>
 									</li>
 									<li class="cs-hover_tab-2 clearfix active">
 										<div class="services-two__icon">
@@ -112,7 +112,7 @@
 											<p class="services-two__text">Data analysis is the process of inspecting, cleansing, transforming, and modeling data with the goal of supporting decision-making</p>
 										</div>
 										<div class="services-two__img-box"
-											data-src="images/services/services-two-img-3.jpg"></div>
+											data-src="dist_tmw/images/services/services-two-img-3.jpg"></div>
 									</li>
 									<li class="cs-hover_tab-2 clearfix">
 										<div class="services-two__icon">
@@ -127,7 +127,7 @@
 											<p class="services-two__text">Training is teaching, or developing in oneself or others, any skills and knowledge or fitness that relate to specific useful competencies.</p>
 										</div>
 										<div class="services-two__img-box"
-											data-src="images/services/services-two-img-4.jpg"></div>
+											data-src="dist_tmw/images/services/services-two-img-4.jpg"></div>
 									</li>
 								</ul>
 							</div>
@@ -144,7 +144,7 @@
 
 		<!--Why Choose One Start-->
 		<section class="why-choose-one">
-			<div class="why-choose-one__bg" style="background-image: url(images/background/why-choose-one-bg.jpg);">
+			<div class="why-choose-one__bg" style="background-image: url(dist_tmw/images/background/why-choose-one-bg.jpg);">
 			</div>
 			<div class="container">
 				<div class="row">
@@ -159,11 +159,11 @@
 							<p class="why-choose-one__text">We take a personalized approach to each business, tailoring solutions to create meaningful change. Whether you're aiming to improve efficiency, boost creativity, or streamline processes, our common goal is always to enhance your organization's growth.</p>
 
 							<div class="why-choose-one__shape-1 float-bob-y">
-								<img src="images/shapes/why-choose-one-shape-1.png" alt="">
+								<img src="dist_tmw/images/shapes/why-choose-one-shape-1.png" alt="">
 							</div>
 
 							<div class="why-choose-one__shape-2 img-bounce">
-								<img src="images/shapes/why-choose-one-shape-2.png" alt="">
+								<img src="dist_tmw/images/shapes/why-choose-one-shape-2.png" alt="">
 							</div>
 
 							<ul class="why-choose-one__points clearfix">
@@ -176,7 +176,7 @@
 										<p>We start by thoroughly understanding your business and its needs. This step involves gathering essential information to form the foundation for the upcoming stages.</p>
 									</div>
 									<div class="why-choose-one__img-box"
-										data-src="images/resource/why-choose-one-img.jpg">
+										data-src="dist_tmw/images/resource/why-choose-one-img.jpg">
 									</div>
 								</li>
 								<li class="cs-hover_tab-3 clearfix">
@@ -188,7 +188,7 @@
 										<p>Once we have the data, we move on to strategizing. Our team works to generate innovative ideas and create a clear plan to address the identified goals and challenges.</p>
 									</div>
 									<div class="why-choose-one__img-box"
-										data-src="images/resource/why-choose-one-img-2.jpg"></div>
+										data-src="dist_tmw/images/resource/why-choose-one-img-2.jpg"></div>
 								</li>
 								<li class="cs-hover_tab-3 clearfix">
 									<!-- <div class="icon">
@@ -199,7 +199,7 @@
 										<p>At this stage, we analyze potential solutions, focusing on practicality and scalability. We assess the best approaches to implement the plan effectively, ensuring alignment with your business objectives.</p>
 									</div>
 									<div class="why-choose-one__img-box"
-										data-src="images/resource/why-choose-one-img.jpg"></div>
+										data-src="dist_tmw/images/resource/why-choose-one-img.jpg"></div>
 								</li>
 								<li class="cs-hover_tab-3 clearfix">
 									<!-- <div class="icon">
@@ -210,7 +210,7 @@
 										<p>Before rolling out the final solution, we conduct rigorous testing to ensure everything works seamlessly. Afterward, we execute the launch, providing you with ongoing support for a smooth transition.</p>
 									</div>
 									<div class="why-choose-one__img-box"
-										data-src="images/resource/why-choose-one-img.jpg"></div>
+										data-src="dist_tmw/images/resource/why-choose-one-img.jpg"></div>
 								</li>
 							</ul>
 						</div>
@@ -236,7 +236,7 @@
 									</div><!-- /.curved-circle -->
 									<div class="faq-one__circle-box"></div>
 									<div class="faq-one__img">
-										<img src="images/resource/faq-one-img.jpg" alt="">
+										<img src="dist_tmw/images/resource/faq-one-img.jpg" alt="">
 									</div>
 								</div><!-- /.curved-circle -->
 							</div>
@@ -316,7 +316,7 @@
 		<!-- Services Three Start -->
 		<section class="services-three">
 			<div class="services-three__shape-1"
-				style="background-image: url(images/shapes/services-three-shape-1.jpg);"></div>
+				style="background-image: url(dist_tmw/images/shapes/services-three-shape-1.jpg);"></div>
 			<div class="services-three__top">
 				<div class="container">
 					<div class="row">
@@ -429,7 +429,7 @@
 
 		<!-- Feature Three Start -->
 		<section class="feature-three">
-			<div class="feature-three__shape-1" style="background-image: url(images/shapes/feature-three-shape-1.jpg);">
+			<div class="feature-three__shape-1" style="background-image: url(dist_tmw/images/shapes/feature-three-shape-1.jpg);">
 			</div>
 			<div class="feature-three__inner clearfix marquee_mode">
 				<ul class="feature-three__list clearfix">
@@ -456,7 +456,7 @@
 				<div class="get-in-touch__inner">
 					<div class="get-in-touch__top">
 						<div class="get-in-touch__top-img">
-							<img src="images/resource/get-in-touch-img-1.jpg" alt="">
+							<img src="dist_tmw/images/resource/get-in-touch-img-1.jpg" alt="">
 						</div>
 						<div class="get-in-touch__top-btn">
 							<a href="contact.html"><span class="icon-bottom-right"></span></a>

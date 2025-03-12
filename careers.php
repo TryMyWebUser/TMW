@@ -30,7 +30,7 @@
         
 		<!--Page Header Start-->
 		<section class="page-header">
-			<div class="page-header__bg" style="background-image: url(images/background/page-header-bg.jpg);"></div>
+			<div class="page-header__bg" style="background-image: url(dist_tmw/images/background/page-header-bg.jpg);"></div>
 			<div class="container">
 				<div class="page-header__inner">
 					<h2>Careers</h2>
@@ -57,27 +57,17 @@
 				</div>
 				<div class="row">
 					<!--Process One Single Start-->
-					<div class="col-xl-4 col-lg-4 wow fadeInUp animated" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
-						<div class="pricing-one__single">
-							<div class="pricing-one__single-inner">
-								<div class="pricing-one__price-box">
-									<!--<p>Per Month</p>-->
-									<h2>$ 30.00</h2>
-								</div>
-								<div class="pricing-one__title-box">
-									<h4 class="pricing-one__title">WEBSITE DESIGN</h4>
-								</div>
-								<div class="pricing-one__service-list-box">
-									<h5 class="pricing-one__service-list-title">All Services Include:</h5>
-									<ul class="pricing-one__service-list">
-										<li>10 Days Time</li>
-										<li>Interview Training</li>
-										<li>Guarantee Approval</li>
-										<li>1 Documents Submission</li>
-									</ul>
-								</div>
-								<div class="pricing-one__arrow">
-									<a href="pricing.html"><span class="icon-arrow-upper-right"></span></a>
+					<div class="col-md-4">
+						<div class="card p-3 mb-2">
+							<div class="mt-3">
+								<h5 class="heading">Senior Product Designer-Singapore</h5>
+								<div class="mt-1">
+									<div class="my-3">
+										<span class="text1">32 Applied</span><br>
+									</div>
+									<a href="#form">
+										<button type="button" class="btn btn-outline-primary">Apply Now</button>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -96,30 +86,17 @@
 				</div>
 				<div class="row">
 					<!--Process One Single Start-->
-					<div class="col-xl-4 col-lg-4 wow fadeInUp animated" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
-						<div class="pricing-one__single">
-							<div class="pricing-one__single-inner">
-								<div class="pricing-one__icon">
-									<span class="icon-website-design"></span>
-								</div>
-								<div class="pricing-one__price-box">
-									<p>Per Month</p>
-									<h2>$ 30.00</h2>
-								</div>
-								<div class="pricing-one__title-box">
-									<h4 class="pricing-one__title">WEBSITE DESIGN</h4>
-								</div>
-								<div class="pricing-one__service-list-box">
-									<h5 class="pricing-one__service-list-title">All Services Include:</h5>
-									<ul class="pricing-one__service-list">
-										<li>10 Days Time</li>
-										<li>Interview Training</li>
-										<li>Guarantee Approval</li>
-										<li>1 Documents Submission</li>
-									</ul>
-								</div>
-								<div class="pricing-one__arrow">
-									<a href="pricing.html"><span class="icon-arrow-upper-right"></span></a>
+					<div class="col-md-4">
+						<div class="card p-3 mb-2">
+							<div class="mt-3">
+								<h5 class="heading">Senior Product Designer-Singapore</h5>
+								<div class="mt-1">
+									<div class="my-3">
+										<span class="text1">32 Applied</span><br>
+									</div>
+									<a href="#form">
+										<button type="button" class="btn btn-outline-primary">Apply Now</button>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -131,7 +108,7 @@
         <!-- Cards Ends -->
 
 		<!--Contact Page Start-->
-		<section class="contact-page">
+		<section class="contact-page" id="form">
 			<div class="container">
 				<div class="contact-page__inner">
 					<h3 class="contact-page__title">What are you looking for?</h3>
@@ -193,7 +170,7 @@
 
 		<!-- Main Footer Start -->
 		<footer class="main-footer-two">
-			<div class="main-footer-two__bg" style="background-image: url(images/background/main-footer-two-bg.jpg);">
+			<div class="main-footer-two__bg" style="background-image: url(dist_tmw/images/background/main-footer-two-bg.jpg);">
 			</div>
 			<div class="main-footer-two__top">
 				<div class="container">
@@ -202,7 +179,7 @@
 							<div class="col-xl-7 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
 								<div class="footer-widget-two__column footer-widget-two__about">
 									<div class="footer-widget-two__logo">
-										<a href="index.html"><img src="images/resource/logo-1.png" alt=""></a>
+										<a href="index.html"><img src="dist_tmw/images/resource/logo-1.png" alt=""></a>
 									</div>
 									<p class="footer-widget-two__about-text">TryMyWebsites is an IT - Branding Company offering customised solutions and products to companies and help
 										them transforming their business digitally.</p>
@@ -369,36 +346,36 @@
 	<!-- Scroll To Top -->
 	<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fas fa-arrow-up fa-fw"></span></div>
 
-	<script src="js/jquery.js"></script>
-	<script src="js/01-bootstrap.min.js"></script>
-	<script src="js/02-nice-select.min.js"></script>
-	<script src="js/03-color-settings.js"></script>
-	<script src="js/04-owl.js"></script>
-	<script src="js/05-jarallax.min.js"></script>
-	<script src="js/06-isotope.js"></script>
-	<script src="js/07-wow.js"></script>
-	<script src="js/08-validate.js"></script>
-	<script src="js/09-appear.js"></script>
-	<script src="js/10-swiper.min.js"></script>
-	<script src="js/11-jquery.easing.min.js"></script>
-	<script src="js/12-gsap.min.js"></script>
-	<script src="js/13-odometer.js"></script>
-	<script src="js/14-tilt.jquery.min.js"></script>
-	<script src="js/15-magnific-popup.min.js"></script>
-	<script src="js/16-jquery-ui.js"></script>
-	<script src="js/17-ScrollTrigger.js"></script>
-	<script src="js/18-SplitText.js"></script>
-	<script src="js/19-gsap.js"></script>
-	<script src="js/20-countdown.min.js"></script>
-	<script src="js/21-marquee.min.js"></script>
-	<script src="js/22-jquery.circleType.js"></script>
-	<script src="js/23-jquery.lettering.min.js"></script>
+	<script src="dist_tmw/js/jquery.js"></script>
+	<script src="dist_tmw/js/01-bootstrap.min.js"></script>
+	<script src="dist_tmw/js/02-nice-select.min.js"></script>
+	<script src="dist_tmw/js/03-color-settings.js"></script>
+	<script src="dist_tmw/js/04-owl.js"></script>
+	<script src="dist_tmw/js/05-jarallax.min.js"></script>
+	<script src="dist_tmw/js/06-isotope.js"></script>
+	<script src="dist_tmw/js/07-wow.js"></script>
+	<script src="dist_tmw/js/08-validate.js"></script>
+	<script src="dist_tmw/js/09-appear.js"></script>
+	<script src="dist_tmw/js/10-swiper.min.js"></script>
+	<script src="dist_tmw/js/11-jquery.easing.min.js"></script>
+	<script src="dist_tmw/js/12-gsap.min.js"></script>
+	<script src="dist_tmw/js/13-odometer.js"></script>
+	<script src="dist_tmw/js/14-tilt.jquery.min.js"></script>
+	<script src="dist_tmw/js/15-magnific-popup.min.js"></script>
+	<script src="dist_tmw/js/16-jquery-ui.js"></script>
+	<script src="dist_tmw/js/17-ScrollTrigger.js"></script>
+	<script src="dist_tmw/js/18-SplitText.js"></script>
+	<script src="dist_tmw/js/19-gsap.js"></script>
+	<script src="dist_tmw/js/20-countdown.min.js"></script>
+	<script src="dist_tmw/js/21-marquee.min.js"></script>
+	<script src="dist_tmw/js/22-jquery.circleType.js"></script>
+	<script src="dist_tmw/js/23-jquery.lettering.min.js"></script>
 
-	<script src="js/script.js"></script>
+	<script src="dist_tmw/js/script.js"></script>
 
 
 	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-	<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+	<!--[if lt IE 9]><script src="dist_tmw/js/respond.js"></script><![endif]-->
 	<a href="https://wa.me/919597236423" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 </body>
 

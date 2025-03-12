@@ -30,7 +30,7 @@
 
 		<!--Page Header Start-->
 		<section class="page-header">
-			<div class="page-header__bg" style="background-image: url(images/background/page-header-bg.jpg);"></div>
+			<div class="page-header__bg" style="background-image: url(dist_tmw/images/background/page-header-bg.jpg);"></div>
 			<div class="container">
 				<div class="page-header__inner">
 					<h2>Courses Detail</h2>
@@ -165,7 +165,7 @@
 				<div class="get-in-touch__inner">
 					<div class="get-in-touch__top">
 						<div class="get-in-touch__top-img">
-							<img src="images/resource/get-in-touch-img-1.jpg" alt="">
+							<img src="dist_tmw/images/resource/get-in-touch-img-1.jpg" alt="">
 						</div>
 						<div class="get-in-touch__top-btn">
 							<a href="contact.html"><span class="icon-bottom-right"></span></a>

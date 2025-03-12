@@ -49,27 +49,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                     if (move_uploaded_file($fileTmp, $filePath)) {
                         $imagePaths[] = $filePath;
-                    } else {
-                        $result = "Error uploading file: $fileName.";
                     }
-                } else {
-                    $result = "Invalid file type for $fileName.";
                 }
             }
-
-            // Delete old images only if new images are uploaded
-            foreach ($existingImages as $oldImage) {
-                if (file_exists($oldImage)) {
-                    unlink($oldImage);
-                }
-            }
-        } else {
-            // Keep old images if no new images are uploaded
-            $imagePaths = $existingImages;
         }
 
-        // Convert array to comma-separated string
-        $imagesString = implode(',', $imagePaths);
+        // Merge new images with existing ones
+        $finalImages = array_merge($existingImages, $imagePaths);
+        $imagesString = implode(',', $finalImages);
 
         // Update database
         $sql = "UPDATE `training` SET 
@@ -90,6 +77,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
 }
+
 
 // Fetch training data
 $train = Operations::getTrainingImage($conn);

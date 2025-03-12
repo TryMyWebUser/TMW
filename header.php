@@ -39,7 +39,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<div class="main-header-three__lower-inner">
 							<!-- Logo Box -->
 							<div class="main-header-three__logo-box">
-								<a href="index.php"><img src="images/resource/logo-1.png" alt=""></a>
+								<a href="index.php"><img src="dist_tmw/images/resource/logo-1.png" alt=""></a>
 							</div>
 							<div class="main-menu-two__box">
 								<div class="main-menu-two__nav-outer-box">
@@ -106,7 +106,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="menu-backdrop"></div>
 				<div class="close-btn"><span class="icon far fa-times fa-fw"></span></div>
 				<nav class="menu-box">
-					<div class="nav-logo"><a href="index.php"><img src="images/resource/logo-2.png" alt="" title=""></a></div>
+					<div class="nav-logo"><a href="index.php"><img src="dist_tmw/images/resource/logo-2.png" alt="" title=""></a></div>
 					<!-- Search -->
 					<!--<div class="search-box">-->
 					<!--	<form method="post" action="#!">-->

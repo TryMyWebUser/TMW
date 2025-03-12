@@ -29,25 +29,25 @@
 		<!-- Banner One Start -->
 		<section class="banner-one">
 			<div class="banner-one__shape-2 zoominout">
-				<img src="images/shapes/banner-one-shape-2.png" alt="">
+				<img src="dist_tmw/images/shapes/banner-one-shape-2.png" alt="">
 			</div>
 			<div class="banner-one__shape-3 float-bob-y">
-				<img src="images/shapes/banner-one-shape-3.png" alt="">
+				<img src="dist_tmw/images/shapes/banner-one-shape-3.png" alt="">
 			</div>
-			<div class="banner-one__bg" style="background-image: url(images/shapes/banner-one-shape-1.png);"></div>
+			<div class="banner-one__bg" style="background-image: url(dist_tmw/images/shapes/banner-one-shape-1.png);"></div>
 			<div class="container">
 				<div class="banner-one__inner sec-title-animation animation-style2">
 					<div class="banner-one__img-box wow fadeInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
 						<div class="banner-one__img">
-							<img src="images/resource/banner-one-img-1.jpg" alt="">
+							<img src="dist_tmw/images/resource/banner-one-img-1.jpg" alt="">
 						</div>
 						<div class="banner-one__curved-circle">
 							<!--<div class="curved-circle">-->
 							<!--	Hard  -  Believe  -  Winner-->
 							<!--</div><!-- /.curved-circle -->-->
 							<div class="banner-one__video-link">
-								<a href="images/resource/TRYMYWEBSITES.mp4" class="lightbox-video">
-									<img src="images/shapes/banner-one-shape-5.png" alt="">
+								<a href="dist_tmw/images/resource/TRYMYWEBSITES.mp4" class="lightbox-video">
+									<img src="dist_tmw/images/shapes/banner-one-shape-5.png" alt="">
 								</a>
 							</div>
 						</div><!-- /.curved-circle -->
@@ -97,16 +97,16 @@
 							<div class="about-one__img-box wow slideInLeft" data-wow-delay="100ms"
 								data-wow-duration="2500ms">
 								<div class="about-one__img">
-									<img src="images/resource/about-one-img-1.png" alt="">
+									<img src="dist_tmw/images/resource/about-one-img-1.png" alt="">
 								</div>
 								<div class="about-one__img-2">
-									<img src="images/resource/about-one-img-2.jpg" alt="">
+									<img src="dist_tmw/images/resource/about-one-img-2.jpg" alt="">
 								</div>
 								<div class="about-one__shape-1 rotateme-left-right">
-									<img src="images/shapes/about-one-shape-1.png" alt="">
+									<img src="dist_tmw/images/shapes/about-one-shape-1.png" alt="">
 								</div>
 								<div class="about-one__shape-2 rotateme">
-									<img src="images/shapes/about-one-shape-2.png" alt="">
+									<img src="dist_tmw/images/shapes/about-one-shape-2.png" alt="">
 								</div>
 							</div>
 						</div>
@@ -135,7 +135,7 @@
 									</div>
 								</div>
 								<div class="about-one__standard-img">
-									<img src="images/resource/about-one-standard-img.png" alt="">
+									<img src="dist_tmw/images/resource/about-one-standard-img.png" alt="">
 								</div>
 							</div>
 						</div>
@@ -152,17 +152,17 @@
 		<section class="video-one">
 			<div class="container">
 				<div class="video-one__wrap">
-					<div class="video-one__bg" style="background-image: url(images/background/video-one-bg.jpg);"></div>
+					<div class="video-one__bg" style="background-image: url(dist_tmw/images/background/video-one-bg.jpg);"></div>
 					<div class="video-one__inner">
 						<h3 class="video-one__title">Play intro</h3>
 						<div class="video-one__title-and-video">
 							<div class="vodeo-one__video">
 								<div class="vodeo-one__video-shape">
-									<img src="images/shapes/video-one-icon-shape.png" alt="">
+									<img src="dist_tmw/images/shapes/video-one-icon-shape.png" alt="">
 								</div>
-								<a href="images/resource/TRYMYWEBSITES.mp4"
+								<a href="dist_tmw/images/resource/TRYMYWEBSITES.mp4"
 									class="about-one__play lightbox-video">
-									<img src="images/icons/icon-play.png" alt=""><i class="ripple"></i>
+									<img src="dist_tmw/images/icons/icon-play.png" alt=""><i class="ripple"></i>
 								</a>
 							</div>
 							<h3 class="video-one__title-2">Video</h3>
@@ -175,7 +175,7 @@
 
 		<!-- Services One Start -->
 		<section class="services-one">
-			<div class="services-one__bg" style="background-image: url(images/shapes/services-one-bg.png);"></div>
+			<div class="services-one__bg" style="background-image: url(dist_tmw/images/shapes/services-one-bg.png);"></div>
 			<div class="container">
 				<div class="section-title text-center">
 					<div class="section-title__tagline-box">
@@ -189,7 +189,7 @@
 					<div class="col-xl-6 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms">
 						<div class="services-one__single">
 							<div class="services-one__img">
-								<img src="images/services/services-1-1.jpg" alt="">
+								<img src="dist_tmw/images/services/services-1-1.jpg" alt="">
 							</div>
 							<div class="services-one__arrow">
 								<a href="services-details.html"><span class="icon-bottom-right"></span></a>
@@ -204,7 +204,7 @@
 					<div class="col-xl-6 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="200ms">
 						<div class="services-one__single">
 							<div class="services-one__img">
-								<img src="images/services/services-1-2.jpg" alt="">
+								<img src="dist_tmw/images/services/services-1-2.jpg" alt="">
 							</div>
 							<div class="services-one__arrow">
 								<a href="services-details.html"><span class="icon-bottom-right"></span></a>
@@ -219,7 +219,7 @@
 					<div class="col-xl-6 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="300ms">
 						<div class="services-one__single">
 							<div class="services-one__img">
-								<img src="images/services/services-1-3.jpg" alt="">
+								<img src="dist_tmw/images/services/services-1-3.jpg" alt="">
 							</div>
 							<div class="services-one__arrow">
 								<a href="services-details.html"><span class="icon-bottom-right"></span></a>
@@ -235,7 +235,7 @@
 					<div class="col-xl-6 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="400ms">
 						<div class="services-one__single">
 							<div class="services-one__img">
-								<img src="images/services/services-1-4.jpg" alt="">
+								<img src="dist_tmw/images/services/services-1-4.jpg" alt="">
 							</div>
 							<div class="services-one__arrow">
 								<a href="services-details.html"><span class="icon-bottom-right"></span></a>
@@ -317,14 +317,14 @@
 							<div class="swiper-slide">
 								<div class="project-two__single">
 									<div class="project-two__img-box">
-										<img src="images/project/thaaragaimasala.png" alt="" height=300>
+										<img src="dist_tmw/images/project/thaaragaimasala.png" alt="" height=300>
 										<div class="project-two__content">
 											<p class="project-two__sub-title">Thaargaimasala</p>
 											<h5 class="project-two__title"><a href="projects.php">
 													Static Website</a></h5>
 										</div>
 										<div class="project-two__arrow">
-											<a href="images/project/thaaragaimasala.png" class="img-popup"><span
+											<a href="dist_tmw/images/project/thaaragaimasala.png" class="img-popup"><span
 													class="icon-arrow-upper-right"></span></a>
 										</div>
 									</div>
@@ -333,14 +333,14 @@
 							<div class="swiper-slide">
 								<div class="project-two__single">
 									<div class="project-two__img-box">
-										<img src="images/project/vijay.png" alt="" height=300>
+										<img src="dist_tmw/images/project/vijay.png" alt="" height=300>
 										<div class="project-two__content">
 											<p class="project-two__sub-title">VijayAirCompressor</p>
 											<h5 class="project-two__title"><a href="projects.php">Static
 													Website</a></h5>
 										</div>
 										<div class="project-two__arrow">
-											<a href="images/project/vijay.png" class="img-popup"><span
+											<a href="dist_tmw/images/project/vijay.png" class="img-popup"><span
 													class="icon-arrow-upper-right"></span></a>
 										</div>
 									</div>
@@ -349,14 +349,14 @@
 							<div class="swiper-slide">
 								<div class="project-two__single">
 									<div class="project-two__img-box">
-										<img src="images/project/minerva.png" alt="" height=300>
+										<img src="dist_tmw/images/project/minerva.png" alt="" height=300>
 										<div class="project-two__content">
 											<p class="project-two__sub-title">Minerva Tiles</p>
 											<h5 class="project-two__title"><a href="projects.php">Dynamic
 													Website</a></h5>
 										</div>
 										<div class="project-two__arrow">
-											<a href="images/project/minerva.png" class="img-popup"><span
+											<a href="dist_tmw/images/project/minerva.png" class="img-popup"><span
 													class="icon-arrow-upper-right"></span></a>
 										</div>
 									</div>
@@ -365,14 +365,14 @@
 							<div class="swiper-slide">
 								<div class="project-two__single">
 									<div class="project-two__img-box">
-										<img src="images/project/SGA.png" alt="" height=300>
+										<img src="dist_tmw/images/project/SGA.png" alt="" height=300>
 										<div class="project-two__content">
 											<p class="project-two__sub-title">SGA Allooys</p>
 											<h5 class="project-two__title"><a href="projects.php">Dynamic
 													Website</a></h5>
 										</div>
 										<div class="project-two__arrow">
-											<a href="images/project/SGA.png" class="img-popup"><span
+											<a href="dist_tmw/images/project/SGA.png" class="img-popup"><span
 													class="icon-arrow-upper-right"></span></a>
 										</div>
 									</div>
@@ -400,7 +400,7 @@
 					<!--				</div>-->
 					<!--				<div class="faq-one__circle-box"></div>-->
 					<!--				<div class="faq-one__img">-->
-					<!--					<img src="images/resource/faq-one-img.jpg" alt="">-->
+					<!--					<img src="dist_tmw/images/resource/faq-one-img.jpg" alt="">-->
 					<!--				</div>-->
 					<!--			</div>-->
 					<!--		</div>-->
@@ -513,14 +513,14 @@
 									<li>
 										<div class="testimonial-one__single-img-box">
 											<div class="testimonial-one__single-img">
-												<img src="images/testimonial/testimonial-one-img-1.jpg" alt="">
+												<img src="dist_tmw/images/testimonial/testimonial-one-img-1.jpg" alt="">
 											</div>
 										</div>
 									</li>
 									<li>
 										<div class="testimonial-one__single-img-box">
 											<div class="testimonial-one__single-img">
-												<img src="images/testimonial/testimonial-one-img-2.jpg" alt="">
+												<img src="dist_tmw/images/testimonial/testimonial-one-img-2.jpg" alt="">
 											</div>
 										</div>
 									</li>
@@ -534,14 +534,14 @@
 									<li>
 										<div class="testimonial-one__single-img-box">
 											<div class="testimonial-one__single-img">
-												<img src="images/testimonial/testimonial-one-img-3.jpg" alt="">
+												<img src="dist_tmw/images/testimonial/testimonial-one-img-3.jpg" alt="">
 											</div>
 										</div>
 									</li>
 									<li>
 										<div class="about-one__single-img-box">
 											<div class="testimonial-one__single-img">
-												<img src="images/testimonial/testimonial-one-img-4.jpg" alt="">
+												<img src="dist_tmw/images/testimonial/testimonial-one-img-4.jpg" alt="">
 											</div>
 										</div>
 									</li>
@@ -612,7 +612,7 @@
 											<p class="testimonial-one__text">They are committed to what they do and respond on time.</p>
 											<div class="testimonial-one__client-info">
 												<div class="testimonial-one__client-img">
-													<img src="images/testimonial/testimonial-one-client-1-1.jpg" alt="">
+													<img src="dist_tmw/images/testimonial/testimonial-one-client-1-1.jpg" alt="">
 												</div>
 												<div class="testimonial-one__client-content">
 													<h4 class="testimonial-one__client-name">Vivek Thangavelu</h4>
@@ -637,7 +637,7 @@
 											Customer approach is good.</p>
 											<div class="testimonial-one__client-info">
 												<div class="testimonial-one__client-img">
-													<img src="images/testimonial/testimonial-one-client-1-1.jpg" alt="">
+													<img src="dist_tmw/images/testimonial/testimonial-one-client-1-1.jpg" alt="">
 												</div>
 												<div class="testimonial-one__client-content">
 													<h4 class="testimonial-one__client-name">Thiru Moorthy</h4>
@@ -662,7 +662,7 @@
 												our website.The cost is also very reasonable.i will highly recommend trymy website company.Thanks yoovan for your support!!!.</p>
 											<div class="testimonial-one__client-info">
 												<div class="testimonial-one__client-img">
-													<img src="images/testimonial/testimonial-one-client-1-1.jpg" alt="">
+													<img src="dist_tmw/images/testimonial/testimonial-one-client-1-1.jpg" alt="">
 												</div>
 												<div class="testimonial-one__client-content">
 													<h4 class="testimonial-one__client-name">Anuradha Sokkaligam</h4>
@@ -721,7 +721,7 @@
 							<div class="blog-one__single">
 								<div class="blog-one__img-box">
 									<div class="blog-one__img">
-										<img src="images/blog/blog-1-1.jpg" alt="">
+										<img src="dist_tmw/images/blog/blog-1-1.jpg" alt="">
 									</div>
 								</div>
 								<div class="blog-one__content">
@@ -764,7 +764,7 @@
 								</div>
 								<div class="blog-one__img-box">
 									<div class="blog-one__img">
-										<img src="images/blog/blog-1-2.jpg" alt="">
+										<img src="dist_tmw/images/blog/blog-1-2.jpg" alt="">
 									</div>
 								</div>
 							</div>
@@ -773,7 +773,7 @@
 							<div class="blog-one__single">
 								<div class="blog-one__img-box">
 									<div class="blog-one__img">
-										<img src="images/blog/blog-1-3.jpg" alt="">
+										<img src="dist_tmw/images/blog/blog-1-3.jpg" alt="">
 									</div>
 								</div>
 								<div class="blog-one__content">

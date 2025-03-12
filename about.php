@@ -30,7 +30,7 @@
 
 		<!--Page Header Start-->
 		<section class="page-header">
-			<div class="page-header__bg" style="background-image: url(images/background/page-header-bg.jpg);"></div>
+			<div class="page-header__bg" style="background-image: url(dist_tmw/images/background/page-header-bg.jpg);"></div>
 			<div class="container">
 				<div class="page-header__inner">
 					<h2>About us</h2>
@@ -95,7 +95,7 @@
 								<div class="about-two__user-box">
 									<div class="about-two__user-img-box">
 										<div class="about-two__user-img">
-											<img src="images/resource/about-two-user-img.jpg" alt="">
+											<img src="dist_tmw/images/resource/about-two-user-img.jpg" alt="">
 										</div>
 										<div class="about-two__user-img-shape-1"></div>
 									</div>
@@ -114,10 +114,10 @@
 							data-wow-duration="2500ms">
 							<div class="about-two__img-box">
 								<div class="about-two__img">
-									<img src="images/resource/about-two-img-1.jpg" alt="">
+									<img src="dist_tmw/images/resource/about-two-img-1.jpg" alt="">
 								</div>
 								<div class="about-two__img-two">
-									<img src="images/resource/about-two-img-2.jpg" alt="">
+									<img src="dist_tmw/images/resource/about-two-img-2.jpg" alt="">
 								</div>
 								<div class="about-two__experience">
 									<h3>2019</h3>
@@ -135,17 +135,17 @@
 		<section class="video-one">
 			<div class="container">
 				<div class="video-one__wrap">
-					<div class="video-one__bg" style="background-image: url(images/background/video-one-bg.jpg);"></div>
+					<div class="video-one__bg" style="background-image: url(dist_tmw/images/background/video-one-bg.jpg);"></div>
 					<div class="video-one__inner">
 						<h3 class="video-one__title">Play intro</h3>
 						<div class="video-one__title-and-video">
 							<div class="vodeo-one__video">
 								<div class="vodeo-one__video-shape">
-									<img src="images/shapes/video-one-icon-shape.png" alt="">
+									<img src="dist_tmw/images/shapes/video-one-icon-shape.png" alt="">
 								</div>
 								<a href="https://www.pexels.com/video/l-2942803/"
 									class="about-one__play lightbox-video">
-									<img src="images/icons/icon-play.png" alt=""><i class="ripple"></i>
+									<img src="dist_tmw/images/icons/icon-play.png" alt=""><i class="ripple"></i>
 								</a>
 							</div>
 							<h3 class="video-one__title-2">Video</h3>
@@ -165,16 +165,16 @@
 							<div class="about-one__img-box wow slideInLeft" data-wow-delay="100ms"
 								data-wow-duration="2500ms">
 								<div class="about-one__img">
-									<img src="images/resource/about-one-img-1.jpg" alt="">
+									<img src="dist_tmw/images/resource/about-one-img-1.jpg" alt="">
 								</div>
 								<div class="about-one__img-2">
-									<img src="images/resource/about-one-img-2.jpg" alt="">
+									<img src="dist_tmw/images/resource/about-one-img-2.jpg" alt="">
 								</div>
 								<div class="about-one__shape-1 rotateme-left-right">
-									<img src="images/shapes/about-one-shape-1.png" alt="">
+									<img src="dist_tmw/images/shapes/about-one-shape-1.png" alt="">
 								</div>
 								<div class="about-one__shape-2 rotateme">
-									<img src="images/shapes/about-one-shape-2.png" alt="">
+									<img src="dist_tmw/images/shapes/about-one-shape-2.png" alt="">
 								</div>
 							</div>
 						</div>
@@ -201,7 +201,7 @@
 									</div>
 								</div>
 								<div class="about-one__standard-img">
-									<img src="images/resource/about-one-standard-img.jpg" alt="">
+									<img src="dist_tmw/images/resource/about-one-standard-img.jpg" alt="">
 								</div>
 							</div>
 						</div>
@@ -231,7 +231,7 @@
 
 		<!-- Award One Start -->
 		<section class="award-one">
-			<div class="award-one__bg" style="background-image: url(images/background/award-one-bg.jpg);"></div>
+			<div class="award-one__bg" style="background-image: url(dist_tmw/images/background/award-one-bg.jpg);"></div>
 			<div class="container">
 				<div class="section-title text-center">
 					<div class="section-title__tagline-box">
@@ -365,7 +365,7 @@
 
 		<!-- Team One Start -->
 		<section class="team-one">
-			<div class="team-one__bg" style="background-image: url(images/shapes/team-one-bg.jpg);"></div>
+			<div class="team-one__bg" style="background-image: url(dist_tmw/images/shapes/team-one-bg.jpg);"></div>
 			<div class="container">
 				<div class="team-one__top">
 					<div class="team-one__top-left">
@@ -439,7 +439,7 @@
 							<div class="team-one__single">
 								<div class="team-one__img-box">
 									<div class="team-one__img">
-										<img src="images/team/team-1-2.jpg" alt="">
+										<img src="dist_tmw/images/team/team-1-2.jpg" alt="">
 									</div>
 									<div class="team-one__share-btn">
 										<a href="#"><span class="icon-share"></span></a>
@@ -463,7 +463,7 @@
 							<div class="team-one__single">
 								<div class="team-one__img-box">
 									<div class="team-one__img">
-										<img src="images/team/team-1-3.jpg" alt="">
+										<img src="dist_tmw/images/team/team-1-3.jpg" alt="">
 									</div>
 									<div class="team-one__share-btn">
 										<a href="#"><span class="icon-share"></span></a>
@@ -494,7 +494,7 @@
 				<div class="get-in-touch__inner">
 					<div class="get-in-touch__top">
 						<div class="get-in-touch__top-img">
-							<img src="images/resource/get-in-touch-img-1.jpg" alt="">
+							<img src="dist_tmw/images/resource/get-in-touch-img-1.jpg" alt="">
 						</div>
 						<div class="get-in-touch__top-btn">
 							<a href="index.php"><span class="icon-bottom-right"></span></a>

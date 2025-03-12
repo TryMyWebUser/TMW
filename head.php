@@ -29,17 +29,17 @@
 		rel="stylesheet">
 
 	<!--Color Switcher Mockup-->
-	<link href="css/color-switcher-design.css" rel="stylesheet">
+	<link href="dist_tmw/css/color-switcher-design.css" rel="stylesheet">
 	<!-- Color Themes -->
-	<link id="theme-color-file" href="css/color-themes/default-color.css" rel="stylesheet">
-	<link rel="shortcut icon" href="images/icons/section-title.png" type="image/x-icon">
-	<link rel="icon" href="images/icons/section-title.png" type="image/x-icon">
+	<link id="theme-color-file" href="dist_tmw/css/color-themes/default-color.css" rel="stylesheet">
+	<link rel="shortcut icon" href="dist_tmw/images/icons/section-title.png" type="image/x-icon">
+	<link rel="icon" href="dist_tmw/images/icons/section-title.png" type="image/x-icon">
 	<!-- Responsive -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
 	<!-- Stylesheets -->
-	<link href="css/bootstrap.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/responsive.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href="dist_tmw/css/bootstrap.css" rel="stylesheet">
+	<link href="dist_tmw/css/style.css" rel="stylesheet">
+	<link href="dist_tmw/css/responsive.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/dist_tmw/css/font-awesome.min.css">
