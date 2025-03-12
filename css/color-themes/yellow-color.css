@@ -1,0 +1,13 @@
+/* CSS Document */
+
+:root {
+	--thm-base: #fed000;
+	--thm-base-rgb: 254, 208, 0;
+}
+
+
+.about-one__shape-1 img,
+.video-two__shape-1,
+.banner-one__shape-2 img {
+	filter: grayscale(100%);
+}
