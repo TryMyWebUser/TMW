@@ -22,14 +22,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
         $result = Operations::headLine($headline);
     }
 
-    if (isset($_POST['submit']) && isset($_POST['category']) && isset($_POST['title']) && isset($_FILES['img2']) && isset($_POST['dec']) && isset($_POST['point']))
+    if (isset($_POST['submit']) && isset($_POST['category']) && isset($_FILES['img2']))
     {
         $cate = $_POST['category'];
-        $title = $_POST['title'];
         $img2 = $_FILES['img2'];
-        $dec = $_POST['dec'];
-        $point = $_POST['point'];
-        $result = Operations::setTrainingImages($title, $img2, $dec, $cate, $point);
+        $result = Operations::setTrainingImages($img2, $cate);
     }
 }
 
@@ -100,7 +97,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
                                     <div class="col-12 col-xl-8 mb-4 mb-xl-0">
                                         <div class="card">
                                             <div class="card-body">
-                                            <h4 class="card-title">Training Head Menu</h4>
+                                            <h4 class="card-title">Clients Head Menu</h4>
                                                 <p class="card-description">
                                                     <?= $result; ?>
                                                 </p>
@@ -112,7 +109,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
                                                     <button type="submit" name="submit" class="btn btn-primary mr-2">Submit</button>
                                                 </form>
 
-                                                <br><br><h4 class="card-title">Training Uploads</h4>
+                                                <br><br><h4 class="card-title">Clients Logo Uploads</h4>
                                                 <p class="card-description">
                                                     <?= $result; ?>
                                                 </p>
@@ -122,7 +119,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
                                                         <select name="category" required>
                                                             <option>Select Category</option>
                                                             <?php
-                                                                $rows = Operations::getHeader();
+                                                                $rows = Operations::getHeader(null);
                                                                 foreach ($rows as $row) {
                                                             ?>
                                                             <option value="<?= $row['header']; ?>"><?= $row['header']; ?></option>
@@ -130,22 +127,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
                                                         </select>    
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="exampleInputName1">Title</label>
-                                                        <input type="text" name="title" class="form-control" placeholder="Title" required>
-                                                    </div>
-                                                    <div class="form-group">
                                                         <label>Upload Images</label>
                                                         <div class="input-group col-xs-12">
                                                             <input type="file" name="img2[]" class="file-upload-browse btn btn-light" placeholder="Upload Images" accept="image/*" multiple required> 
                                                         </div>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label for="exampleTextarea1">Description</label>
-                                                        <textarea class="form-control" name="dec" id="exampleTextarea1" rows="4" required></textarea>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label for="exampleInputPoint1">Points</label>
-                                                        <input type="text" name="point" class="form-control" placeholder="Points" required>
                                                     </div>
                                                     <button type="submit" name="submit" class="btn btn-primary mr-2">Submit</button>
                                                 </form>

@@ -35,13 +35,13 @@
         <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#Training-elements" aria-expanded="false" aria-controls="Training-elements">
                 <i class="icon-columns menu-icon"></i>
-                <span class="menu-title">Training</span>
+                <span class="menu-title">Clients</span>
                 <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="Training-elements">
                 <ul class="nav flex-column sub-menu rounded-bottom">
-                    <li class="nav-item"><a class="nav-link" href="addTrainings.php">Add Trainings</a></li>
-                    <li class="nav-item"><a class="nav-link" href="viewTrainings.php">View Trainings</a></li>
+                    <li class="nav-item"><a class="nav-link" href="addTrainings.php">Add Clients</a></li>
+                    <li class="nav-item"><a class="nav-link" href="viewTrainings.php">View Clients</a></li>
                 </ul>
             </div>
         </li>

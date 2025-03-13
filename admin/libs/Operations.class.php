@@ -103,46 +103,21 @@ class Operations
             return "Error occurred while inserting headline: " . $e->getMessage();
         }
     }
-    public static function setTrainingImages($title, $img2, $dec, $cate, $point)
-    {
-        $conn = Database::getConnect();
-        $targetDir = "uploads/training/"; // Define your upload directory
-    
-        if (!is_dir($targetDir)) {
-            mkdir($targetDir, 0777, true);
-        }
-    
-        $allowTypes = ['jpg', 'png', 'jpeg', 'gif'];
-        $imagePaths = [];
-    
-        // Handling multiple file uploads
-        foreach ($_FILES['img2']['name'] as $key => $fileName) {
-            $fileType = pathinfo($fileName, PATHINFO_EXTENSION);
-            $fileTmp = $_FILES['img2']['tmp_name'][$key];
-            $fileError = $_FILES['img2']['error'][$key];
-    
-            if ($fileError === UPLOAD_ERR_OK && in_array($fileType, $allowTypes)) {
-                $uniqueName = time() . "_" . basename($fileName);
-                $filePath = $targetDir . $uniqueName;
-    
-                if (move_uploaded_file($fileTmp, $filePath)) {
-                    $imagePaths[] = $filePath; // Store file path
-                } else {
-                    return "Error uploading file: $fileName.";
-                }
-            } else {
-                return "Invalid file type or upload error for $fileName.";
-            }
-        }
-    
-        // Convert image paths array to a comma-separated string
-        $imagesString = implode(',', $imagePaths);
+    public static function setTrainingImages($img2, $cate)
+{
+    $conn = Database::getConnect();
+    $targetDir = "uploads/training/";
 
-        // SQL Query: Use prepared statements to avoid SQL injection
-        $sql = "INSERT INTO `training` (`title`, `frame`, `dec`, `created_at`, `category`, `points`) 
-                VALUES ('$title', '$imagesString', '$dec', NOW(), '$cate', '$point')";
+    if (!is_dir($targetDir)) {
+        mkdir($targetDir, 0777, true);
+    }
 
-        // Prepare statement
+    $allowTypes = ['jpg', 'png', 'jpeg', 'gif'];
+
+    // If no images are uploaded, insert only category
+    if (empty($img2['name'][0])) {
+        $sql = "INSERT INTO `training` (`frame`, `created_at`, `category`) 
+                VALUES (NULL, NOW(), '$cate')";
         if ($conn->query($sql)) {
             header("Location: viewTrainings.php");
             exit;
@@ -150,6 +125,29 @@ class Operations
             return "Error occurred while saving data: " . $conn->error;
         }
     }
+
+    // Upload multiple images
+    foreach ($img2['name'] as $key => $fileName) {
+        $fileTmp = $img2['tmp_name'][$key];
+        $fileType = pathinfo($fileName, PATHINFO_EXTENSION);
+
+        if (in_array($fileType, $allowTypes)) {
+            $uniqueName = time() . "_" . basename($fileName);
+            $filePath = $targetDir . $uniqueName;
+
+            if (move_uploaded_file($fileTmp, $filePath)) {
+                // Insert each image separately
+                $sql = "INSERT INTO `training` (`frame`, `created_at`, `category`) 
+                        VALUES ('$filePath', NOW(), '$cate')";
+                $conn->query($sql);
+            }
+        }
+    }
+
+    header("Location: viewTrainings.php");
+    exit;
+}
+
     public static function setCareer($title, $dec, $cate)
     {
         $conn = Database::getConnect();
@@ -269,9 +267,11 @@ class Operations
         $result = $conn->query($sql);
         return iterator_to_array($result);
     }
-    public static function getHeader()
+    public static function getHeader($conn)
     {
-        $conn = Database::getConnect();
+        if ($conn === null) {
+            $conn = Database::getConnect();
+        }
         $sql = "SELECT `header` FROM `headline` ORDER BY `created_at` DESC";
         $result = $conn->query($sql);
         return iterator_to_array($result);

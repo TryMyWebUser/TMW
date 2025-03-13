@@ -146,7 +146,7 @@
 .about-one__standard-box {
     position: relative;
     display: block;
-    max-width: 338px;
+    /* max-width: 338px; */
     width: 100%;
     margin-top: 20px;
 }

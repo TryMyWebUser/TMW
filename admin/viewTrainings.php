@@ -168,63 +168,11 @@ if (!Session::get('login_user'))
                                         <div class="cards grid-row">
                                             <div class="card">
                                                 <div class="card-top">
-                                                    <!--<img src="< ?= $train['frame']; ?>" alt="Training Frame Image Not Found" />-->
-                                                    <!-- Include Swiper.js CSS -->
-                                                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-                                                    
-                                                    <!-- Slider HTML -->
-                                                    <div class="swiper-container">
-                                                        <div class="swiper-wrapper">
-                                                            <?php
-                                                                $frames = explode(',', $train['frame']);
-                                                                foreach ($frames as $img) {
-                                                            ?>
-                                                            <div class="swiper-slide">
-                                                                <img src="<?= $img ?>" alt="Image Not Found">
-                                                            </div>
-                                                            <?php } ?>
-                                                        </div>
-                                                        <!-- Pagination (dots) -->
-                                                        <div class="swiper-pagination"></div>
-                                                    </div>
-                                                    
-                                                    <!-- Include Swiper.js JavaScript -->
-                                                    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-                                                    
-                                                    <!-- Initialize Swiper -->
-                                                    <script>
-                                                      var swiper = new Swiper('.swiper-container', {
-                                                          loop: true,
-                                                          autoplay: {
-                                                              delay: 5000, // Change slide every 5 seconds
-                                                              disableOnInteraction: false,
-                                                          },
-                                                          pagination: {
-                                                              el: '.swiper-pagination',
-                                                              clickable: true,
-                                                          },
-                                                      });
-                                                    </script>
-                                                    
-                                                    <!-- Styling -->
-                                                    <style>
-                                                      .swiper-container {
-                                                          width: 100%;
-                                                          max-width: 600px; /* Adjust as needed */
-                                                          border-radius: 1rem;
-                                                      }
-                                                      .swiper-slide img {
-                                                          width: 100%;
-                                                          border-radius: 1rem;
-                                                      }
-                                                    </style>
+                                                    <img src="<?= $train['frame']; ?>" alt="Image Not Found" />
                                                 </div>
                                                 <div class="card-info">
-                                                    <h2><?= $train['title']; ?></h2>
+                                                    <h2><?= $train['category']; ?></h2>
                                                     <span class="date"><?= $train['created_at']; ?></span>
-                                                    <p class="excerpt m-0"><?= $train['dec']; ?></p>
-                                                    <br>
-                                                    <p class="excerpt m-0"><?= $train['points']; ?></p>
                                                 </div>
                                                 <div class="card-bottom flex-row">
                                                     <!-- <a href="#" class="read-more">Read Full Blog</a>

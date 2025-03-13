@@ -19,54 +19,44 @@ $getID = $_GET['edit_id'];
 
 // Check if form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    if (isset($_POST['submit'], $_POST['title'], $_POST['dec'], $_POST['category'], $_POST['point'])) {
-        $title = $_POST['title'];
-        $dec = $_POST['dec'];
+    if (isset($_POST['submit'], $_POST['category'])) {
         $cate = $_POST['category'];
-        $point = $_POST['point'];
-        $img2 = $_FILES['img2'] ?? null;
+        $img = $_FILES['img2'] ?? null;
 
         $targetDir = "uploads/training/";
+
         if (!is_dir($targetDir)) {
+            // Create directory with proper permissions
             mkdir($targetDir, 0777, true);
         }
 
         $allowTypes = ['jpg', 'png', 'jpeg', 'gif'];
-        $imagePaths = [];
+        $uploadedImagePath = "";
 
-        // Retrieve existing image paths
-        $existingImages = !empty($training['frame']) ? explode(',', $training['frame']) : [];
+        // Process the image if it exists
+        if (!empty($img['name'])) {
+            $fileName = basename($img['name']);
+            $filePath = $targetDir . $fileName;
+            $fileType = pathinfo($fileName, PATHINFO_EXTENSION);
 
-        // Process new images if uploaded
-        if (!empty($img2['name'][0])) {
-            foreach ($img2['name'] as $key => $fileName) {
-                $fileTmp = $_FILES['img2']['tmp_name'][$key];
-                $fileType = pathinfo($fileName, PATHINFO_EXTENSION);
-
-                if (in_array($fileType, $allowTypes)) {
-                    $uniqueName = time() . "_" . basename($fileName);
-                    $filePath = $targetDir . $uniqueName;
-
-                    if (move_uploaded_file($fileTmp, $filePath)) {
-                        $imagePaths[] = $filePath;
-                    }
+            if (in_array($fileType, $allowTypes)) {
+                if (move_uploaded_file($img['tmp_name'], $filePath)) {
+                    $uploadedImagePath = $filePath; // Save the file path
+                } else {
+                    $result = "Error uploading the image.";
                 }
+            } else {
+                $result = "Invalid file type. Allowed types are: " . implode(", ", $allowTypes);
             }
         }
 
-        // Merge new images with existing ones
-        $finalImages = array_merge($existingImages, $imagePaths);
-        $imagesString = implode(',', $finalImages);
+        $sql = "UPDATE `training` SET `category` = '$cate', `created_at` = NOW()";
 
-        // Update database
-        $sql = "UPDATE `training` SET 
-                    `title` = '$title', 
-                    `frame` = '$imagesString', 
-                    `dec` = '$dec', 
-                    `created_at` = NOW(), 
-                    `category` = '$cate', 
-                    `points` = '$point' 
-                WHERE `id` = '$getID'";
+        if (!empty($uploadedImagePath)) {
+            $sql .= ", `frame` = '$uploadedImagePath'";
+        }
+
+        $sql .= " WHERE `id` = '$getID'";
 
         // Execute query
         if ($conn->query($sql)) {
@@ -147,61 +137,38 @@ $train = Operations::getTrainingImage($conn);
                         <div class="row">
                             <div class="col-md-12 grid-margin">
                                 <div class="row">
-                                    <div class="col-12 col-xl-8 mb-4 mb-xl-0">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Projects Upload</h4>
-                                                <p class="card-description">
-                                                    <?= $result; ?>
-                                                </p>
-                                                <form class="forms-sample" method="POST" enctype="multipart/form-data">
-                                                    <div class="form-group">
-                                                        <label for="exampleInputcategory">Category</label>
-                                                        <select name="category" required>
-                                                            <option value="<?= $train['category']; ?>"><?= $train['category']; ?></option>
-                                                            <?php
-                                                                // $db = Database::getConnect();
-                                                                // if (!$db) {
-                                                                //     die("Failed to connect to the database.");
-                                                                // }
-                                                                $sql = "SELECT `header` FROM `headline` ORDER BY `created_at` DESC";
-                                                                $result = $conn->query($sql);
-                                                                $rows = iterator_to_array($result);
-                                                                foreach ($rows as $row) {
-                                                            ?>
-                                                            <option value="<?= $row['header']; ?>"><?= $row['header']; ?></option>
-                                                            <?php } ?>
-                                                        </select>    
+                                    <div class="col-md-12 grid-margin">
+                                        <div class="row">
+                                            <div class="col-12 col-xl-8 mb-4 mb-xl-0">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <br><br><h4 class="card-title">Clients Logo Uploads</h4>
+                                                        <p class="card-description">
+                                                            <?= $result; ?>
+                                                        </p>
+                                                        <form class="forms-sample" method="POST" enctype="multipart/form-data">
+                                                            <div class="form-group">
+                                                                <label for="exampleInputcategory">Category</label>
+                                                                <select name="category">
+                                                                    <option value="<?= $train['category']; ?>">Select Category</option>
+                                                                    <?php
+                                                                        $rows = Operations::getHeader($conn);
+                                                                        foreach ($rows as $row) {
+                                                                    ?>
+                                                                    <option value="<?= $row['header']; ?>"><?= $row['header']; ?></option>
+                                                                    <?php } ?>
+                                                                </select>    
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label>Upload Images</label>
+                                                                <div class="input-group col-xs-12">
+                                                                    <input type="file" name="img2" class="file-upload-browse btn btn-light" placeholder="Upload Images" accept="image/*"> 
+                                                                </div>
+                                                            </div>
+                                                            <button type="submit" name="submit" class="btn btn-primary mr-2">Submit</button>
+                                                        </form>
                                                     </div>
-                                                    <div class="form-group">
-                                                        <label for="exampleInputName1">Title</label>
-                                                        <input type="text" name="title" class="form-control" placeholder="Title" value="<?= $train['title']; ?>" required>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label>Upload Frame (Optional)</label>
-                                                        <div class="input-group col-xs-12">
-                                                            <input type="file" name="img2[]" class="file-upload-browse btn btn-light" placeholder="Upload Images" accept="image/*" multiple>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label>Existing Images</label><br>
-                                                        <?php
-                                                        $imageList = explode(',', $train['frame']);
-                                                        foreach ($imageList as $img) {
-                                                            echo "<img src='$img' width='100' height='100' style='margin: 5px;'>";
-                                                        }
-                                                        ?>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label for="exampleTextarea1">Description</label>
-                                                        <textarea class="form-control" name="dec" id="exampleTextarea1" rows="4" required><?= $train['dec']; ?></textarea>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label for="exampleInputPoint1">Points</label>
-                                                        <input type="text" name="point" class="form-control" placeholder="Points" value="<?= $train['points']; ?>" required>
-                                                    </div>
-                                                    <button type="submit" name="submit" class="btn btn-primary mr-2">Submit</button>
-                                                </form>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

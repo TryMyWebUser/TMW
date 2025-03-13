@@ -95,7 +95,7 @@
 				<ul class="feature-two__list clearfix">
 					<li><a href="#!"><i class="icon-play-button"></i><span>Get Now :</span> UI/ UX design</a></li>
 					<li><a href="#!"><i class="icon-play-button"></i><span>Get Now :</span> Web Development</a></li>
-					<li><a href="#!"><i class="icon-play-button"></i><span>Get Now :</span>Data Analiyist</a></li>
+					<li><a href="#!"><i class="icon-play-button"></i><span>Get Now :</span>Digital Marketing</a></li>
 				</ul>
 			</div><!-- /.feature-Two__inner -->
 		</section>

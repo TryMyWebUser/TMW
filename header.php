@@ -12,19 +12,6 @@ if (!$conn) {
     die("Database connection failed: " . mysqli_connect_error());
 }
 
-// Fetch header data
-$sql = "SELECT `header` FROM `headline`";
-$result = $conn->query($sql);
-
-if (!$result) {
-    die("SQL Error: " . $conn->error);
-}
-
-// Fetch results
-$headline = [];
-while ($row = $result->fetch_assoc()) {
-    $headline[] = $row;
-}
 ?>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56PD8DM3"
@@ -62,16 +49,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 														<li><a href="index.php">Home</a></li>
 														<li><a href="about.php">About</a></li>
 														<li><a href="projects.php">Portfolio</a></li>
+														<li><a href="client.php">Clients</a></li>
 														<li><a href="promotion.php">Promotion</a></li>
 														<li><a href="services.php">Services</a></li>
-														<!-- <li><a href="training.php">Courses</a></li> -->
-														<li class="dropdown"><a>Courses</a>
-															<ul>
-															<?php foreach ($headline as $item) : ?>
-                                                <li><a href="training.php?data=<?php echo htmlspecialchars($item['header']); ?>"><?php echo htmlspecialchars($item['header']); ?></a></li>
-                                            <?php endforeach; ?>
-															</ul>
-														</li>
 														<li><a href="careers.php">Careers</a></li>
                                                         <li><a href="contact.php">Contact</a></li>
 													</ul>

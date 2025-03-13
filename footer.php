@@ -1,4 +1,4 @@
-<!-- Main Footer Start -->
+		<!-- Main Footer Start -->
 		<footer class="main-footer-two">
 			<div class="main-footer-two__bg" style="background-image: url(dist_tmw/images/background/main-footer-two-bg.jpg);">
 			</div>
@@ -92,7 +92,7 @@
 
 
 		<!-- Website Starting Popup -->
-		<style>
+		<!-- <style>
 			.login-popup{
 				position: fixed;
 				left: 0;
@@ -236,19 +236,15 @@
 					<h1 class="text-center m-0">Apply Now</h1>
 					<form id="careerForm">
 						<div class="form-group">
-							<!-- <label class="form-label">Full Name</label> -->
 							<input type="text" name="fullName" placeholder="FullName" class="form-control" required>
 						</div>
 						<div class="form-group">
-							<!-- <label class="form-label">Email</label> -->
 							<input type="email" name="email" placeholder="Email" class="form-control" required>
 						</div>
 						<div class="form-group">
-							<!-- <label class="form-label">Phone Number</label> -->
 							<input type="tel" name="phoneNumber" placeholder="Phone Number" class="form-control" required>
 						</div>
 						<div class="form-group">
-							<!-- <label class="form-label">Category</label> -->
 							<select name="subject" class="form-control py-0" required>
 								<option value="">Select a Category</option>
 								<option value="Training Classes">Training Classes</option>
@@ -256,7 +252,6 @@
 							</select>
 						</div>
 						<div class="form-group">
-							<!-- <label class="form-label">Upload Resume</label> -->
 							<input type="file" name="resume" class="form-control" accept=".pdf" required>
 						</div>
 						<div>
@@ -354,7 +349,7 @@
 					window.location.href = "./";
 				});
 			}
-		</script>
+		</script> -->
 
 
 

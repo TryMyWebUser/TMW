@@ -42,9 +42,6 @@
 							<img src="dist_tmw/images/resource/banner-one-img-1.jpg" alt="">
 						</div>
 						<div class="banner-one__curved-circle">
-							<!--<div class="curved-circle">-->
-							<!--	Hard  -  Believe  -  Winner-->
-							<!--</div><!-- /.curved-circle -->-->
 							<div class="banner-one__video-link">
 								<a href="dist_tmw/images/resource/TRYMYWEBSITES.mp4" class="lightbox-video">
 									<img src="dist_tmw/images/shapes/banner-one-shape-5.png" alt="">
@@ -77,11 +74,11 @@
 					<li><a href="#">*</a></li>
 					<li><a href="#">E-commerce</a></li>
 					<li><a href="#">*</a></li>
-					<li><a href="#"><span>Data Analyist</span></a></li>
+					<li><a href="#">Digital Marketing</a></li>
 					<li><a href="#">*</a></li>
 					<li><a href="#">UI/UX</a></li>
 					<li><a href="#">*</a></li>
-					<li><a href="#"><span>Training classes</span></a></li>
+					<li><a href="#"><span>Internship/Training</span></a></li>
 					<li><a href="#">*</a></li>
 				</ul>
 			</div><!-- /.feature-one__inner -->
@@ -99,9 +96,9 @@
 								<div class="about-one__img">
 									<img src="dist_tmw/images/resource/about-one-img-1.png" alt="">
 								</div>
-								<div class="about-one__img-2">
+								<!-- <div class="about-one__img-2">
 									<img src="dist_tmw/images/resource/about-one-img-2.jpg" alt="">
-								</div>
+								</div> -->
 								<div class="about-one__shape-1 rotateme-left-right">
 									<img src="dist_tmw/images/shapes/about-one-shape-1.png" alt="">
 								</div>
@@ -134,9 +131,9 @@
 										<a href="about.php" class="about-one__btn thm-btn">Know About</a>
 									</div>
 								</div>
-								<div class="about-one__standard-img">
+								<!-- <div class="about-one__standard-img">
 									<img src="dist_tmw/images/resource/about-one-standard-img.png" alt="">
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</div>
@@ -192,10 +189,10 @@
 								<img src="dist_tmw/images/services/services-1-1.jpg" alt="">
 							</div>
 							<div class="services-one__arrow">
-								<a href="services-details.html"><span class="icon-bottom-right"></span></a>
+								<a href="services.php"><span class="icon-bottom-right"></span></a>
 							</div>
 							<div class="services-one__count"></div>
-							<h3 class="services-one__title"><a href="services-details.html">Web Development</a></h3>
+							<h3 class="services-one__title"><a href="services.php">Web Development</a></h3>
 							<p class="services-one__text">We turn your ideas into a reality. &our website is placed on a "development server" where you get to watch the whole process, live.</p>
 						</div>
 					</div>
@@ -207,10 +204,10 @@
 								<img src="dist_tmw/images/services/services-1-2.jpg" alt="">
 							</div>
 							<div class="services-one__arrow">
-								<a href="services-details.html"><span class="icon-bottom-right"></span></a>
+								<a href="services.php"><span class="icon-bottom-right"></span></a>
 							</div>
 							<div class="services-one__count"></div>
-							<h3 class="services-one__title"><a href="services-details.html">Web Design</a></h3>
+							<h3 class="services-one__title"><a href="services.php">Web Design</a></h3>
 							<p class="services-one__text">Color scheme, layout, sitemap, and style. We will bring your brand to life with a one of a kind masterpiece, built just for you</p>
 						</div>
 					</div>
@@ -222,12 +219,11 @@
 								<img src="dist_tmw/images/services/services-1-3.jpg" alt="">
 							</div>
 							<div class="services-one__arrow">
-								<a href="services-details.html"><span class="icon-bottom-right"></span></a>
+								<a href="services.php"><span class="icon-bottom-right"></span></a>
 							</div>
 							<div class="services-one__count"></div>
-							<h3 class="services-one__title"><a href="services-details.html">Data Analyist</a></h3>
-							<p class="services-one__text">Data analysis is the process of inspecting, cleansing, transforming, and modeling data with the goal of 
-								supporting decision-making</p>
+							<h3 class="services-one__title"><a href="services.php">Digital Marketing</a></h3>
+							<p class="services-one__text">Digital marketing analysis is the process of collecting, refining, interpreting, and optimizing marketing data to enhance strategies, improve audience targeting, and drive data-driven decision-making for better campaign performance.</p>
 						</div>
 					</div>
 					<!--Services One Single End-->
@@ -238,11 +234,11 @@
 								<img src="dist_tmw/images/services/services-1-4.jpg" alt="">
 							</div>
 							<div class="services-one__arrow">
-								<a href="services-details.html"><span class="icon-bottom-right"></span></a>
+								<a href="services.php"><span class="icon-bottom-right"></span></a>
 							</div>
 							<div class="services-one__count"></div>
-							<h3 class="services-one__title"><a href="services-details.html">Training Classes</a></h3>
-							<p class="services-one__text">Training is teaching, or developing in oneself or others, any skills and knowledge or fitness that relate to specific useful
+							<h3 class="services-one__title"><a href="services.php">Internship/Training</a></h3>
+							<p class="services-one__text">Internship/Training is teaching, or developing in oneself or others, any skills and knowledge or fitness that relate to specific useful
 								 competencies.</p>
 						</div>
 					</div>
@@ -253,7 +249,7 @@
 		<!-- Services One End -->
 
 		<!-- Project One Start -->
-		<section class="project-two">
+		<!-- <section class="project-two">
 			<div class="project-two__top">
 				<div class="container">
 					<div class="project-two__top-inner">
@@ -382,30 +378,14 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- Project One End -->
 		 
 
 		<!-- FAQ One Start -->
-		
 		<section class="faq-one pt-0">
 			<div class="container">
 				<div class="row">
-					<!--<div class="col-xl-6">-->
-					<!--	<div class="faq-one__left wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">-->
-					<!--		<div class="faq-one__content-box">-->
-					<!--			<div class="faq-one__curved-circle">-->
-					<!--				<div class="curved-circle-3">-->
-					<!--					Some Vaild questions-->
-					<!--				</div>-->
-					<!--				<div class="faq-one__circle-box"></div>-->
-					<!--				<div class="faq-one__img">-->
-					<!--					<img src="dist_tmw/images/resource/faq-one-img.jpg" alt="">-->
-					<!--				</div>-->
-					<!--			</div>-->
-					<!--		</div>-->
-					<!--	</div>-->
-					<!--</div>-->
 					<div class="col-xl-12">
 						<div class="faq-one__right mt-0">
 							<div class="section-title text-left">
@@ -439,18 +419,13 @@
 								</div>
 								<div class="accrodion">
 									<div class="accrodion-title">
-										<h4>What are the tools is used for data analyist?</h4>
+										<h4>What are the tools is used for digital marketing?</h4>
 									</div>
 									<div class="accrodion-content">
 										<div class="inner">
-											<p>Data analysts use a variety of tools to analyze data, including programming languages, data visualization tools,
-												 and business intelligence platforms.
+											<p>Digital marketing in social media promotion involves using platforms like Facebook, Instagram, Twitter, LinkedIn, and TikTok to market products, services, or brands. It includes strategies like:
 												<br>
-												Programming language: SQL,Python
-												<br>
-												visualizations : PowerBI, tableau, Excel
-												<br>
-												Data Processing : Machine Learning
+												Tools: Google Analytics, Google Ads, Meta Ads, SEO Tools (Ahrefs, SEMrush), Email Marketing (Mailchimp), Social Media Management (Hootsuite, Buffer), and AI-powered Marketing Automation.
 												</p>
 										</div><!-- /.inner -->
 									</div>
@@ -486,11 +461,11 @@
 						<h2 data-hover="development" class="sliding-text__title">development <span>/</span></h2>
 					</li>
 					<li>
-						<h2 data-hover="data analyist" class="sliding-text__title">Data Analyist<span>/</span>
+						<h2 data-hover="digital marketing" class="sliding-text__title">Digital Marketing<span>/</span>
 						</h2>
 					</li>
 					<li>
-						<h2 data-hover="classes" class="sliding-text__title">Classes<span>/</span>
+						<h2 data-hover="Internship" class="sliding-text__title">Internship<span>/</span>
 						</h2>
 					</li>
 				</ul>
@@ -695,111 +670,14 @@
 		<section class="feature-two">
 			<div class="feature-two__inner clearfix marquee_mode">
 				<ul class="feature-two__list clearfix">
-					<li><a href="design.php"><i class="icon-play-button"></i><span>Get Now :</span> UI/ UX design</a></li>
-					<li><a href="develop.php"><i class="icon-play-button"></i><span>Get Now :</span> Web Development</a></li>
-					<li><a href="data.php"><i class="icon-play-button"></i><span>Get Now :</span>Data Analiyist</a></li>
+					<li><a href="services.php"><i class="icon-play-button"></i><span>Get Now :</span> UI/ UX design </a></li>
+					<li><a href="services.php"><i class="icon-play-button"></i><span>Get Now :</span> Web Development </a></li>
+					<li><a href="services.php"><i class="icon-play-button"></i><span>Get Now :</span> Digital Marketing </a></li>
 				</ul>
 			</div><!-- /.feature-one__inner -->
 		</section>
 		<!-- Feature one End -->
 
-		
-
-		<!-- Blog One Start -->
-		<!-- <section class="blog-one">
-			<div class="container">
-				<div class="section-title text-center">
-					<div class="section-title__tagline-box">
-						<span class="section-title__tagline">. : news & article : .</span>
-					</div>
-					<h2 class="section-title__title">Browse Our Articles on The
-						<br> Marketing & Growth</h2>
-				</div>
-				<div class="blog-one__inner">
-					<ul class="blog-one__blog-list">
-						<li class="wow fadeInLeft" data-wow-delay="100ms">
-							<div class="blog-one__single">
-								<div class="blog-one__img-box">
-									<div class="blog-one__img">
-										<img src="dist_tmw/images/blog/blog-1-1.jpg" alt="">
-									</div>
-								</div>
-								<div class="blog-one__content">
-									<ul class="blog-one__meta">
-										<li>
-											<a href="#"><span class="icon-calendar"></span>March 22, 2022</a>
-										</li>
-										<li>
-											<a href="#"><span class="icon-user"></span>Aginco</a>
-										</li>
-										<li>
-											<a href="#"><span class="icon-bubble-chat"></span>02 comments</a>
-										</li>
-									</ul>
-									<h3 class="blog-one__title"><a href="blog-details.html">Crafting a Digital Identity:
-											The Art of
-											Agency Web Design</a></h3>
-									<a href="blog-details.html" class="blog-one__read-more">Read More</a>
-								</div>
-							</div>
-						</li>
-						<li class="wow fadeInRight" data-wow-delay="200ms">
-							<div class="blog-one__single">
-								<div class="blog-one__content">
-									<ul class="blog-one__meta">
-										<li>
-											<a href="#"><span class="icon-calendar"></span>March 22, 2022</a>
-										</li>
-										<li>
-											<a href="#"><span class="icon-user"></span>Aginco</a>
-										</li>
-										<li>
-											<a href="#"><span class="icon-bubble-chat"></span>02 comments</a>
-										</li>
-									</ul>
-									<h3 class="blog-one__title"><a href="blog-details.html">Achieving Fashion Elegance:
-											Runway
-											to Real Life</a></h3>
-									<a href="blog-details.html" class="blog-one__read-more">Read More</a>
-								</div>
-								<div class="blog-one__img-box">
-									<div class="blog-one__img">
-										<img src="dist_tmw/images/blog/blog-1-2.jpg" alt="">
-									</div>
-								</div>
-							</div>
-						</li>
-						<li class="wow fadeInRight" data-wow-delay="300ms">
-							<div class="blog-one__single">
-								<div class="blog-one__img-box">
-									<div class="blog-one__img">
-										<img src="dist_tmw/images/blog/blog-1-3.jpg" alt="">
-									</div>
-								</div>
-								<div class="blog-one__content">
-									<ul class="blog-one__meta">
-										<li>
-											<a href="#"><span class="icon-calendar"></span>March 22, 2022</a>
-										</li>
-										<li>
-											<a href="#"><span class="icon-user"></span>Aginco</a>
-										</li>
-										<li>
-											<a href="#"><span class="icon-bubble-chat"></span>02 comments</a>
-										</li>
-									</ul>
-									<h3 class="blog-one__title"><a href="blog-details.html">Facebook design is dedicated
-											to what’s
-											new in design</a></h3>
-									<a href="blog-details.html" class="blog-one__read-more">Read More</a>
-								</div>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</section> -->
-		<!-- Blog One End -->
 <?php
 include('footer.php');
 ?>

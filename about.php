@@ -56,11 +56,11 @@
 					<li><a href="#">*</a></li>
 					<li><a href="#">E-commerce</a></li>
 					<li><a href="#">*</a></li>
-					<li><a href="#"><span>Data Analyist</span></a></li>
+					<li><a href="#">Digital Marketing</a></li>
 					<li><a href="#">*</a></li>
 					<li><a href="#">UI/UX</a></li>
 					<li><a href="#">*</a></li>
-					<li><a href="#"><span>Training classes</span></a></li>
+					<li><a href="#"><span>Internship/Training</span></a></li>
 					<li><a href="#">*</a></li>
 				</ul>
 			</div><!-- /.feature-one__inner -->
@@ -167,9 +167,9 @@
 								<div class="about-one__img">
 									<img src="dist_tmw/images/resource/about-one-img-1.jpg" alt="">
 								</div>
-								<div class="about-one__img-2">
+								<!-- <div class="about-one__img-2">
 									<img src="dist_tmw/images/resource/about-one-img-2.jpg" alt="">
-								</div>
+								</div> -->
 								<div class="about-one__shape-1 rotateme-left-right">
 									<img src="dist_tmw/images/shapes/about-one-shape-1.png" alt="">
 								</div>
@@ -192,7 +192,7 @@
 							<div class="about-one__standard-and-img-box">
 								<div class="about-one__standard-box">
 									<!-- <h3>High Standard</h3> -->
-									<p>Our training program teaches you the basics of web development, data analysis, and web design. In web development,
+									<p>Our training program teaches you the basics of web development, digital marketing, and web design. In web development,
 										 you’ll learn how to build websites using popular tools like HTML, CSS, JavaScript, and React. In data analysis, 
 										 you’ll learn how to work with data to find useful information using tools like Python and Excel. For web design, you’ll learn how to create
 										  attractive and user-friendly websites with design tools like Figma and Adobe XD.</p>
@@ -200,9 +200,9 @@
 										<a href="about.php" class="about-one__btn thm-btn">Know About</a>
 									</div>
 								</div>
-								<div class="about-one__standard-img">
+								<!-- <div class="about-one__standard-img">
 									<img src="dist_tmw/images/resource/about-one-standard-img.jpg" alt="">
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</div>
@@ -215,13 +215,17 @@
 		<section class="feature-three">
 			<div class="feature-three__inner clearfix marquee_mode">
 				<ul class="feature-three__list clearfix">
-					<li><a href="#">Design</a></li>
+					<li><a href="#">Static</a></li>
 					<li><a href="#">*</a></li>
-					<li><a href="#">Data Science</a></li>
+					<li><a href="#"><span>Dynamic</span></a></li>
 					<li><a href="#">*</a></li>
-					<li><a href="#">Development</a></li>
+					<li><a href="#">E-commerce</a></li>
 					<li><a href="#">*</a></li>
-					<li><a href="#">Training classes</a></li>
+					<li><a href="#">Digital Marketing</a></li>
+					<li><a href="#">*</a></li>
+					<li><a href="#">UI/UX</a></li>
+					<li><a href="#">*</a></li>
+					<li><a href="#"><span>Internship/Training</span></a></li>
 					<li><a href="#">*</a></li>
 				</ul>
 			</div><!-- /.feature-Three__inner -->
@@ -235,9 +239,9 @@
 			<div class="container">
 				<div class="section-title text-center">
 					<div class="section-title__tagline-box">
-						<span class="section-title__tagline">. : our Interesting Courses : .</span>
+						<span class="section-title__tagline">. : our Interesting Internship/Training : .</span>
 					</div>
-					<h2 class="section-title__title">Check Our Courses and Interships </h2>
+					<h2 class="section-title__title">Check Our Interships/Training </h2>
 				</div>
 				<div class="award-one__table-responsive">
 					<table class="table award-one__table">
@@ -289,15 +293,15 @@
 							<tr>
 								<td>
 									<div class="award-one__year-box">
-										<p class="award-one__year">Data Science</p>
+										<p class="award-one__year">Digital Marketing</p>
 										<div class="award-one__hover-text">
-											<p>Data Science</p>
+											<p>Digital Marketing</p>
 										</div>
 									</div>
 								</td>
 								<td>
 									<div class="award-one__quality-box">
-										<p class="award-one__quality-text">Tools : Python,R,PowerBi,Tableau,ML</p>
+										<p class="award-one__quality-text">Tools: Google Analytics, Google Ads, Meta Ads, SEO Tools (Ahrefs, SEMrush), Email Marketing (Mailchimp), Social Media Management (Hootsuite, Buffer), and AI-powered Marketing Automation.</p>
 										<!-- <p class="award-one__quality-count">(01)</p> -->
 									</div>
 								</td>

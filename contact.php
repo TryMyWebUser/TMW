@@ -154,7 +154,7 @@
 				<ul class="feature-two__list clearfix">
 					<li><a href="design.php"><i class="icon-play-button"></i><span>Get Now :</span> UI/ UX design</a></li>
 					<li><a href="develop.php"><i class="icon-play-button"></i><span>Get Now :</span> Web Development</a></li>
-					<li><a href="data.php"><i class="icon-play-button"></i><span>Get Now :</span>Data Analiyist</a></li>
+					<li><a href="data.php"><i class="icon-play-button"></i><span>Get Now :</span>Digital Marketing</a></li>
 				</ul>
 			</div><!-- /.feature-one__inner -->
 		</section>

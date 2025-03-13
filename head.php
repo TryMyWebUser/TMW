@@ -15,7 +15,7 @@
     })(window,document,'script','dataLayer','GTM-56PD8DM3');</script>
     <!-- End Google Tag Manager -->
     <meta charset="utf-8">
-	<title>TRYMYWEBSITES - Web Design Company In Coimbatore, Data analyist in coimbatore, Web development training in coimbatore,</title>
+	<title>Trymywebsites</title>
 	<meta name="Keyword"
         content="webdesign company in coimbatore, best webdesign in coimbatore, Ecommerce website, dynamic website, static website, web development company, web development company in coimbatore, coimbatore webdesign Company ">
     <meta name="description"
